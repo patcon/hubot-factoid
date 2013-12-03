@@ -1,25 +1,26 @@
 {
   "name": "hubot-factoid",
   "description": "A hubot script to build a factoid library for common questions.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "amaltson",
   "license": "MIT",
-
-  "keywords": ["hubot","hubot-scripts","factoid","javabot","facts"],
-
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "factoid",
+    "javabot",
+    "facts"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/hubot-scripts/hubot-example.git"
   },
-
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-example/issues"
   },
-
   "dependencies": {
     "coffee-script": "~1.6"
   },
-
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
@@ -30,9 +31,7 @@
     "matchdep": "~0.1.2",
     "grunt-contrib-watch": "~0.5.3"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
