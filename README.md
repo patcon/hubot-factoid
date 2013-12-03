@@ -2,7 +2,7 @@
 
 A hubot script to build a factoid library for common questions.
 
-See [`src/hello-world.coffee`](src/hello-world.coffee) for full documentation.
+See [`src/factoid.coffee`](src/factoid.coffee) for full documentation.
 
 ## Installation
 
@@ -24,10 +24,3 @@ Add **hubot-factoid** to your `external-scripts.json`:
 ```
 
 Run `npm install`
-
-## Sample Interaction
-
-```
-user1>> hubot hello
-hubot>> hello!
-```

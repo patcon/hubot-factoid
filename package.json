@@ -2,7 +2,7 @@
   "name": "hubot-factoid",
   "description": "A hubot script to build a factoid library for common questions.",
   "version": "0.0.0",
-  "author": "Patrick Connolly <patrick@myplanetdigital.com>",
+  "author": "amaltson",
   "license": "MIT",
 
   "keywords": ["hubot","hubot-scripts","factoid","javabot","facts"],
