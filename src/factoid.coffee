@@ -1,6 +1,5 @@
 # Description:
-#   javabot style factoid support for your hubot. Build a factoid library
-#   and save yourself typing out answers to similar questions
+#   A hubot script to build a factoid library for common questions.
 #
 # Dependencies:
 #   None
@@ -20,7 +19,7 @@
 #   hubot factoid delete "<factoid>" - delete a factoid
 #
 # Author:
-#   arthurkalm
+#   amaltson
 
 class Factoids
   constructor: (@robot) ->
