@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-example.git"
+    "url": "https://github.com/patcon/hubot-factoid"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-example/issues"
+    "url": "https://github.com/patcon/hubot-factoid/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6"
