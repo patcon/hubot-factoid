@@ -25,7 +25,7 @@
 class Factoids
   constructor: (@robot) ->
     storageLoaded = =>
-      @cache = @robot.brain.data.plusPlus ||= {}
+      @cache = @robot.brain.data.factoids ||= {}
       @robot.logger.debug "Factoids Data Loaded: " + JSON.stringify(@cache, null, 2)
     @robot.brain.on 'loaded', storageLoaded
     storageLoaded() # just in case storage was loaded before we got here
